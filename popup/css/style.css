@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: aliceblue;
+}
+
+hr{
+    border: none;
+    
+}
+
+.buttonPopup{
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background-color: blue;
+    color: azure;
+    height: 30px;
+    width: 100px;
+
+}
+
+.buttonPopupFechar{
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: brown;
+    color: aliceblue;
+    right: 50px;
+}
+
+.fundoPopup{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+.popup{
+    width: 60%;
+    min-width: 450px;
+    min-height: 200px;
+    background-color: rgba(255, 255, 255, 0.267);
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.fundoPopup.invisivel{
+    display: flex;
+}
